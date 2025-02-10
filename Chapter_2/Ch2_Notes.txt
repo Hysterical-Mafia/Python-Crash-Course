@@ -1,34 +1,54 @@
 Chapter 2 : Python Crash Course
 
+______________________________________________________________________________________________________________________________________________________________
+
 Variables:
 
   Naming and Using Variables:
-        -Variables can only contain letter numbers and underscores
-        -Cannot start with a number but can start with an underscore
-        -Spaces not allows in variable names
-        -Avoid using Python keywords and function names as variables
-        -Variable names should be short but descriptive  (name_length is better than length_of_persons_name)  
-        -Be careful using lowercase L and uppcase O, can be mistaken for 1(one) and 0(zero)
-        -For now, variables should be lowercase, uppercase letters in variable names tend to have special meaning which will be discussed later
+        - Variables can only contain letter numbers and underscores
+        - Cannot start with a number but can start with an underscore
+        - Spaces not allows in variable names
+        - Avoid using Python keywords and function names as variables
+        - Variable names should be short but descriptive  (name_length is better than length_of_persons_name)  
+        - Be careful using lowercase L and uppcase O, can be mistaken for 1(one) and 0(zero)
+        - For now, variables should be lowercase, uppercase letters in variable names tend to have special meaning which will be discussed later
 
     Avoiding Name Errors When Using Variables:
-        -Tracebacks are records of where the interpreter ran into trouble when running the code
+        - Tracebacks are records of where the interpreter ran into trouble when running the code
 
     Variables Are Labels:
-        -Think of variables as labels you can assign to values
+        - Think of variables as labels you can assign to values
+
+______________________________________________________________________________________________________________________________________________________________
+
+Strings:
+
+  Changing Case in a String with Methods:
+    - A "method" is an action that Python can perform on a piece of data, for example .title() is a method, the dot(.) tells Python to make the title() method act on the variable name
+    - Every method is followed by a set of parentheses because methods tend to need additional information for their work which is provided in the parentheses
+    - The title method makes every word start with a capital letter
+    - The upper() and lower() change the string to all uppercase or all lowercase
+    - The lower() method tends to be useful for storing data, since you dont have to worry about what capitilization the user has used
+
+  Using Variables in Strings:
+    - Formatted string(f-string) are strings that Python formats by replacing the name of any existing variable in braces with its value
+
+  Adding Whitespace to Strings with Tabs or Newlines:
+    - To add a tab to your text you can use "\t"
+    - To move to a new line you can use "\n"
+
+  Stripping Whitespace:
+    - 
 
 
 
+______________________________________________________________________________________________________________________________________________________________
 
+Things to Keep in Mind:
 
-
-
-
-
-
-
-
-
-
-
-
+  - .title() changes each word to title case, where each word will start with a capital letter
+  - .upper() changes each word to uppercases
+  - .lower() changes each word to lowercases
+  - \t can be used to add a tab to your text
+  - \n can be used to create a new line
+  - \n\t tells Python to move to a new line and start that new line with a tab
