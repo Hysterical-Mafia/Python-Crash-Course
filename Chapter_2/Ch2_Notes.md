@@ -1,6 +1,7 @@
 **Chapter 2 : Python Crash Course**
 
 **Variables:**
+
    ** Naming and Using Variables:**
         -Variables can only contain letter numbers and underscores
         -Cannot start with a number but can start with an underscore
