@@ -4,5 +4,8 @@ Going through the Python Crash Course by Eric Matthes
 
 Currently on 
 
-Chapter: 
-Page:
+  Chapter: 2
+
+  Page: 22
+
+  Section: Stripping Whitespace
