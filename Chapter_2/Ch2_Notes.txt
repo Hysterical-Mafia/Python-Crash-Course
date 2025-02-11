@@ -38,7 +38,17 @@ Strings:
     - To move to a new line you can use "\n"
 
   Stripping Whitespace:
-    - 
+    - .strip(), .lstrip(), .rstip() can be used to get rid of whitespace that is not wanted
+
+  Removing Prefixes:
+    - .removeprefix(' ') can be used to remove a prefix, inside the parenthesis you want to enter the prefix you want to remove from the string
+
+Numbers:
+
+  
+
+
+
 
 
 
@@ -52,3 +62,8 @@ Things to Keep in Mind:
   - \t can be used to add a tab to your text
   - \n can be used to create a new line
   - \n\t tells Python to move to a new line and start that new line with a tab
+  - .strip() strips all of the whitespace in a string
+  - .rstrip() strips whitespace from the right side of  a string
+  - .lstrip() strips whitespace from the left side of a string
+  - .removeprefix() can be used to remove a prefix from a string
+
