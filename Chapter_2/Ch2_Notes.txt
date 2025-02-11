@@ -43,6 +43,10 @@ Strings:
   Removing Prefixes:
     - .removeprefix(' ') can be used to remove a prefix, inside the parenthesis you want to enter the prefix you want to remove from the string
 
+
+______________________________________________________________________________________________________________________________________________________________
+
+
 Numbers:
 
     Integers:
@@ -67,6 +71,17 @@ Numbers:
       - A constant is a variable whose value stays the same throughout the life of the program
       -  Python does not have built in constant types, you can use all capital letters to indicate that a variable should be treated as a constant and never changed
 
+______________________________________________________________________________________________________________________________________________________________
+
+
+Comments:
+
+  How Do You Write Comments?:
+    - Using the # which indicates a comment
+    - Using 3 sets of ' ' ' or " " " indicates a multi line comment
+    - Should be desciriptive, clear and concise
+    - Ask yourself if you had to consider different approaches before coming up with your final solution, if you did you should write about the solution
+    - Can always delete extra comments later
 
 ______________________________________________________________________________________________________________________________________________________________
 
