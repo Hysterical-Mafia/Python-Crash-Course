@@ -6,6 +6,6 @@ Currently on
 
   Chapter: 2
 
-  Page: 22
+  Page: 71 - (33)
 
-  Section: Stripping Whitespace
+  Section: 
