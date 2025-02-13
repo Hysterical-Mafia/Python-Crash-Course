@@ -2,3 +2,22 @@ Chapter 3 : Introducing Lists
 
 ______________________________________________________________________________________________________________________________________________________________
 
+What Is a List?
+
+    - Square Brackets [] indicate a list and individual elements in the list are seperated by commas
+    - A collection of items in a particular order
+    - If asked to print, Python returns the list including square brackets
+
+      Accessing Elements in a List:
+          - 
+
+
+
+
+
+
+
+
+
+
+
