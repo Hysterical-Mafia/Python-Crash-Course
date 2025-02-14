@@ -8,8 +8,18 @@ What Is a List?
     - A collection of items in a particular order
     - If asked to print, Python returns the list including square brackets
 
-      Accessing Elements in a List:
-          - 
+        Accessing Elements in a List:
+            - Lists are ordered collection, 0-X, to pull a specific element in a list, write the list name, followed by the index of the item in square brackets, 
+                ex. bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+                print(bicycles[0]) will print ['trek']
+		
+        Index Positions Start at 0, Not 1: 
+            - The first item in a list is considered to be at position 0 in most programming languages
+            - To access the last element in a list, you can ask for the item at index '-1', this continues on with -2,-3 and so on
+
+        Using Individual Values from a List:
+            - 
+        
 
 
 
