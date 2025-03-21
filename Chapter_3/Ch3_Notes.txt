@@ -18,7 +18,11 @@ What Is a List?
             - To access the last element in a list, you can ask for the item at index '-1', this continues on with -2,-3 and so on
 
         Using Individual Values from a List:
-            - 
+            - Can use f-strings to create a message based on a value from a list
+		Ex. 'message = f"My first bicycle was a {bicycles[0],title()}."'
+			This would return the sentence followed by the type of bicycle that takes index 0 on the list, it titlecases it then fixes it in the sentence
+
+
         
 
 
