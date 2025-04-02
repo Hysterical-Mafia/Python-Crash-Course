@@ -21,7 +21,22 @@ What Is a List?
             - Can use f-strings to create a message based on a value from a list
 		Ex. 'message = f"My first bicycle was a {bicycles[0],title()}."'
 			This would return the sentence followed by the type of bicycle that takes index 0 on the list, it titlecases it then fixes it in the sentence
-            - 
+
+	Modifying Elements in a List:
+            - Can modify values in a list by using its name followed by the index in '[]' such as 
+		vehicle[0] = 'car'
+		This would replace the value in index 0 to car
+
+	Appending Elements in a List:
+            - Can add elements to a list by using 'append'
+		vehicle.append("Car")
+		This would add the value "Car" to the end of the list without affecting anything else
+
+	Inserting Elements in a List:
+            - Can insert elements to a list in any position by using 'insert'
+		vehicle.insert(0, "Car")
+		This would add the value "Car" to position 0 and stores that value at that location, this shifts every other value one position to the right
+
 
 
         
